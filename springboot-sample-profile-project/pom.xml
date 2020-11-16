@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <!-- 父项目坐标 -->
+    <parent>
+        <groupId>ink.openmind</groupId>
+        <artifactId>learn-springboot-sample-space</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>springboot-sample-profile-project</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>springboot-sample-profile-project</name>
+    <description>SpringBoot中Profile设置开发和生产环境配置</description>
+    <packaging>jar</packaging>
+
+    <properties>
+        <java.version>11</java.version>
+    </properties>
+
+
+    <build>
+        <plugins>
+            <!-- 引入了Maven插件可以直接使用Maven命令启动 -->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

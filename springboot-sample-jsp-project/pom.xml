@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <!-- 父项目坐标 -->
+    <parent>
+        <groupId>ink.openmind</groupId>
+        <artifactId>learn-springboot-sample-space</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>springboot-sample-jsp-project</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>springboot-sample-jsp-project</name>
+    <description>SpringBoot整合JSP开发</description>
+    <packaging>jar</packaging>
+
+    <properties>
+        <java.version>11</java.version>
+    </properties>
+
+    <dependencies>
+        <!-- SpringBoot整合JSP start -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <!--
+        注意：spring boot对jsp的支持不是很好，在使用spring boot自带tomcat的同时
+        还需要引入另外的一个tomcat，以来如下所示，且scope属性需要被注释掉
+        注掉的原因是：maven默认scope是compile，表示打包时会把此包打入jar包中，而provided表示打包时不会打如jar包中，
+        因为它默认是jar包中会提供，说白了就是你标注了provided就不会被打入jar包中，项目跑起来就肯定会有问题了
+        -->
+
+        <dependency>
+            <groupId>org.apache.tomcat.embed</groupId>
+            <artifactId>tomcat-embed-jasper</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <!-- SpringBoot整合JSP end -->
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

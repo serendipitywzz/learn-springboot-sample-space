@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body th:background="${th_background}" background="#D0D0D0">
+    <!-- text标签-->
+    <h1 th:text="${title}">html标签演示</h1>
+    <div>
+        <h5> id、name、value标签： </h5>
+        <!--id、name、value标签：-->
+        <input
+            id="input1"
+            name="input1"
+            value="1"
+            th:id="${th_id}"
+            th:name="${th_name}"
+            th:value="${th_value}"/>
+        <br/>
+        <div class="div1" th:class="${th_class}">
+            <h5>class、href标签： </h5>
+            <!-- class、href标签 -->
+            <a th:href="${th_href}" href="#">标签地址</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.3.0.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+    <groupId>ink.openmind</groupId>
+    <artifactId>learn-springboot-sample-space</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+
+    <modelVersion>4.0.0</modelVersion>
+    <name>learn-springboot-sample-space</name>
+    <description>Learn Spring Boot and practice for demo!</description>
+    <packaging>pom</packaging>
+
+    <!-- 设置子项目  -->
+    <modules>
+        <module>springboot-sample-project</module>
+        <module>springboot-sample-multi-datasource-project</module>
+        <module>springboot-sample-mybatis-project</module>
+        <module>springboot-sample-redis-project</module>
+        <module>springboot-sample-rabbitmq-project</module>
+        <module>springboot-sample-profile-project</module>
+        <module>springboot-sample-baselearn-project</module>
+        <module>springboot-sample-jsp-project</module>
+        <module>springboot-sample-fileupload-project</module>
+        <module>springboot-sample-jdbc-project</module>
+        <module>springboot-sample-druid-project</module>
+        <module>springboot-sample-mybatis-learn-project</module>
+        <module>springboot-sample-redis-learn-project</module>
+        <module>springboot-sample-timedtask-project</module>
+        <module>springboot-sample-customerrorpage-project</module>
+        <module>springboot-sample-swagger-project</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>11</java.version>
+        <elasticsearch.version>7.9.3</elasticsearch.version>
+        <elasticsearchresthighlevelclient.version>7.9.3</elasticsearchresthighlevelclient.version>
+        <mysqlconnector.version>8.0.16</mysqlconnector.version>
+        <log4jcore.version>2.12.1</log4jcore.version>
+        <mybatis.version>2.1.3</mybatis.version>
+        <druid.version>1.1.12</druid.version>
+        <swagger.version>2.8.0</swagger.version>
+    </properties>
+
+    <!-- 设置仓库镜像：aliyun -->
+    <repositories>
+        <repository>
+            <id>nexus-aliyun</id>
+            <name>Nexus aliyun</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>${log4jcore.version}</version>
+        </dependency>
+
+        <!-- Swagger2依赖 start-->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>${swagger.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>${swagger.version}</version>
+        </dependency>
+        <!-- Swagger2依赖 end-->
+
+        <!-- Quartz依赖 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-quartz</artifactId>
+        </dependency>
+
+        <!-- Redis数据库驱动依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+
+        <!-- RabbitMQ消息中间件依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-amqp</artifactId>
+        </dependency>
+
+        <!-- jdbc-starter -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-jdbc</artifactId>
+        </dependency>
+
+        <!-- Druid数据库连接池依赖 -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>${druid.version}</version>
+        </dependency>
+
+        <!-- MySQL数据库驱动依赖 -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysqlconnector.version}</version>
+        </dependency>
+
+        <!-- MyBatis依赖 -->
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>${mybatis.version}</version>
+        </dependency>
+
+        <!-- ES嗅探器依赖 -->
+        <dependency>
+            <groupId>org.elasticsearch.client</groupId>
+            <artifactId>elasticsearch-rest-client-sniffer</artifactId>
+            <version>${elasticsearch.version}</version>
+        </dependency>
+
+        <!-- ES高级客户端 -->
+        <dependency>
+            <groupId>org.elasticsearch.client</groupId>
+            <artifactId>elasticsearch-rest-high-level-client</artifactId>
+            <version>${elasticsearch.version}</version>
+        </dependency>
+
+        <!-- 添加ES高级客户端依赖begin-->
+        <dependency>
+            <groupId>org.elasticsearch</groupId>
+            <artifactId>elasticsearch</artifactId>
+            <version>${elasticsearch.version}</version>
+        </dependency>
+        <!-- 添加ES高级客户端依赖end-->
+
+        <!-- SpringBoot相关依赖start-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+
+        <!-- Thymeleaf依赖 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+        <!-- SpringBoot相关依赖end-->
+
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
