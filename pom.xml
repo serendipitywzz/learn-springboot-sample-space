@@ -37,6 +37,7 @@
         <module>springboot-sample-timedtask-project</module>
         <module>springboot-sample-customerrorpage-project</module>
         <module>springboot-sample-swagger-project</module>
+        <module>springboot-sample-email-project</module>
     </modules>
 
     <properties>
