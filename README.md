@@ -20,3 +20,4 @@ SpringBoot相关学习Demo
 |springboot-sample-swagger-project|SpringBoot集成Swagger|
 |springboot-sample-thymeleaf-project|SpringBoot集成Thymeleaf|
 |springboot-sample-timedtask-project|SpringBoot集成Quartz|
+|springboot-sample-email-project|Spring发送邮件|
