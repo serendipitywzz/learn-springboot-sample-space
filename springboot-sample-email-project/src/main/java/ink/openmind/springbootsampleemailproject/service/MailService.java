@@ -138,7 +138,7 @@ public class MailService {
                                              String message) throws MessagingException, UnsupportedEncodingException {
         // ******************************发送端配置***********************************
         JavaMailSenderImpl jms = new JavaMailSenderImpl();
-        Security.addProvider(new com.sun.net.ssl.internal.ssl.Provider());
+        //Security.addProvider(new com.sun.net.ssl.internal.ssl.Provider());
         final String SSL_FACTORY = "javax.net.ssl.SSLSocketFactory";
         Properties props = new Properties();
         props.setProperty("mail.smtp.auth", "true");

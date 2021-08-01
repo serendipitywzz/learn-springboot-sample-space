@@ -1,17 +1,14 @@
-package ink.openmind.springbootsamplecustomerrorpageproject;
-
+package ink.openmind.springbootsampledockerproject;
 
 import org.springframework.boot.SpringApplication;
-
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
-import org.springframework.stereotype.Controller;
-
 
 @SpringBootApplication(exclude = DataSourceAutoConfiguration.class)
-public class SpringbootSampleCustomerrorpageProjectApplication{
+public class SpringbootSampleDockerProjectApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringbootSampleCustomerrorpageProjectApplication.class, args);
+        SpringApplication.run(SpringbootSampleDockerProjectApplication.class, args);
     }
+
 }

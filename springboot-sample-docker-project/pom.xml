@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <!-- 父项目坐标 -->
+    <parent>
+        <groupId>ink.openmind</groupId>
+        <artifactId>learn-springboot-sample-space</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <!-- 本项目坐标 -->
+    <artifactId>springboot-sample-docker-project</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>springboot-sample-docker-project</name>
+    <description>SpringBoot中Docker使用</description>
+    <packaging>jar</packaging>
+
+    <!-- 在pom.xml的properties标签中添加 Docker镜像名称-->
+    <properties>
+        <docker.image.prefix>springboot</docker.image.prefix>
+        <java.version>1.8</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <start-class>ink.openmind.springbootsampledockerproject.SpringbootSampleDockerProjectApplication</start-class>
+    </properties>
+
+    <dependencies>
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+
+            <!-- start - Docker maven plugin (plugins中添加Docker插件) -->
+            <plugin>
+                <groupId>com.spotify</groupId>
+                <artifactId>docker-maven-plugin</artifactId>
+                <version>1.0.0</version>
+                <configuration>
+                    <imageName>${docker.image.prefix}/${project.artifactId}</imageName>
+                    <dockerDirectory>src/main/docker</dockerDirectory>
+                    <resources>
+                        <resource>
+                            <targetPath>/</targetPath>
+                            <directory>${project.build.directory}</directory>
+                            <include>${project.build.finalName}</include>
+                        </resource>
+                    </resources>
+                </configuration>
+            </plugin>
+            <!-- end - Docker maven plugin -->
+        </plugins>
+    </build>
+
+</project>

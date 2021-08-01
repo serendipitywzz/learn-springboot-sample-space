@@ -1,78 +1,96 @@
-2020-11-14 09:36:18.831  INFO 9676 --- [main] i.o.s.TestSampleUnit01                   : Starting TestSampleUnit01 on PC-Wz with PID 9676 (started by admin in E:\SoftDevWorkspace\JavaEE\learn-springboot-sample-space\springboot-sample-baselearn-project)
-2020-11-14 09:36:18.844  INFO 9676 --- [main] i.o.s.TestSampleUnit01                   : No active profile set, falling back to default profiles: default
-2020-11-14 09:36:19.971  INFO 9676 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-11-14 09:36:19.974  INFO 9676 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-11-14 09:36:20.005  INFO 9676 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 Redis repository interfaces.
-2020-11-14 09:36:22.158  INFO 9676 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-11-14 09:36:24.990  INFO 9676 --- [main] i.o.s.TestSampleUnit01                   : Started TestSampleUnit01 in 6.712 seconds (JVM running for 8.358)
-2020-11-14 09:36:25.699  INFO 9676 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-11-14 09:43:26.110  INFO 14428 --- [main] i.o.s.TestSampleUnit01                   : Starting TestSampleUnit01 on PC-Wz with PID 14428 (started by admin in E:\SoftDevWorkspace\JavaEE\learn-springboot-sample-space\springboot-sample-baselearn-project)
-2020-11-14 09:43:26.112  INFO 14428 --- [main] i.o.s.TestSampleUnit01                   : No active profile set, falling back to default profiles: default
-2020-11-14 15:18:27.886  INFO 16196 --- [main] ingbootSampleBaselearnProjectApplication : Starting SpringbootSampleBaselearnProjectApplication on PC-Wz with PID 16196 (E:\SoftDevWorkspace\JavaEE\learn-springboot-sample-space\springboot-sample-baselearn-project\target\classes started by admin in E:\SoftDevWorkspace\JavaEE\learn-springboot-sample-space\springboot-sample-baselearn-project)
-2020-11-14 15:18:27.893  INFO 16196 --- [main] ingbootSampleBaselearnProjectApplication : No active profile set, falling back to default profiles: default
-2020-11-14 15:18:29.134  INFO 16196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-11-14 15:18:29.136  INFO 16196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-11-14 15:18:29.174  INFO 16196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 0 Redis repository interfaces.
-2020-11-14 15:18:29.736  INFO 16196 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2020-11-14 15:18:29.746  INFO 16196 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-11-14 15:18:29.747  INFO 16196 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
-2020-11-14 15:18:30.174  INFO 16196 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2020-11-14 15:18:30.183  INFO 16196 --- [main] o.a.c.c.C.[.[localhost].[/testdemo]      : Initializing Spring embedded WebApplicationContext
-2020-11-14 15:18:30.183  INFO 16196 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2180 ms
-2020-11-14 15:18:30.408  INFO 16196 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-11-14 15:18:31.309  INFO 16196 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/testdemo'
-2020-11-14 15:18:31.321  INFO 16196 --- [main] ingbootSampleBaselearnProjectApplication : Started SpringbootSampleBaselearnProjectApplication in 4.032 seconds (JVM running for 5.657)
-2020-11-14 15:18:37.794  INFO 16196 --- [http-nio-8081-exec-1] o.a.c.c.C.[.[localhost].[/testdemo]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-11-14 15:18:37.795  INFO 16196 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-11-14 15:18:37.802  INFO 16196 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
-2020-11-14 15:18:38.803  WARN 16196 --- [http-nio-8081-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [542] milliseconds.
-2020-11-14 16:00:38.051  INFO 552 --- [main] ingbootSampleBaselearnProjectApplication : Starting SpringbootSampleBaselearnProjectApplication on PC-Wz with PID 552 (E:\SoftDevWorkspace\JavaEE\learn-springboot-sample-space\springboot-sample-baselearn-project\target\classes started by admin in E:\SoftDevWorkspace\JavaEE\learn-springboot-sample-space\springboot-sample-baselearn-project)
-2020-11-14 16:00:38.055  INFO 552 --- [main] ingbootSampleBaselearnProjectApplication : No active profile set, falling back to default profiles: default
-2020-11-14 16:00:39.055  INFO 552 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-11-14 16:00:39.059  INFO 552 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-11-14 16:00:39.083  INFO 552 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
-2020-11-14 16:00:39.547  INFO 552 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2020-11-14 16:00:39.555  INFO 552 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-11-14 16:00:39.555  INFO 552 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
-2020-11-14 16:00:39.674  INFO 552 --- [main] o.a.c.c.C.[.[localhost].[/testdemo]      : Initializing Spring embedded WebApplicationContext
-2020-11-14 16:00:39.674  INFO 552 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1507 ms
-2020-11-14 16:00:39.885  INFO 552 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-11-14 16:00:40.674  WARN 552 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8081 is already in use
-2020-11-14 16:00:40.694  INFO 552 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-11-14 16:00:40.696  INFO 552 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2020-11-14 16:00:40.754  INFO 552 --- [main] ConditionEvaluationReportLoggingListener : 
+2020-11-30 22:43:34.988  INFO 12864 --- [main] ingbootSampleBaselearnProjectApplication : Starting SpringbootSampleBaselearnProjectApplication on PC-Wz with PID 12864 (E:\SoftDevWorkspace\JavaEE\learn-springboot-sample-space\springboot-sample-baselearn-project\target\classes started by admin in E:\SoftDevWorkspace\JavaEE\learn-springboot-sample-space\springboot-sample-baselearn-project)
+2020-11-30 22:43:35.096  INFO 12864 --- [main] ingbootSampleBaselearnProjectApplication : No active profile set, falling back to default profiles: default
+2020-11-30 22:43:36.563  INFO 12864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-30 22:43:36.576  INFO 12864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-30 22:43:36.628  INFO 12864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20ms. Found 0 Redis repository interfaces.
+2020-11-30 22:43:37.675  INFO 12864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-30 22:43:37.689  INFO 12864 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-30 22:43:37.690  INFO 12864 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-11-30 22:43:37.905  INFO 12864 --- [main] o.a.c.c.C.[.[localhost].[/testdemo]      : Initializing Spring embedded WebApplicationContext
+2020-11-30 22:43:37.905  INFO 12864 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2705 ms
+2020-11-30 22:43:38.179  INFO 12864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-30 22:43:38.394  WARN 12864 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-11-30 22:43:40.452  INFO 12864 --- [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2020-11-30 22:43:40.467  INFO 12864 --- [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-11-30 22:43:40.467  INFO 12864 --- [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2020-11-30 22:43:40.467  INFO 12864 --- [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2020-11-30 22:43:40.468  INFO 12864 --- [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2020-11-14 16:00:40.758 ERROR 552 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+2020-11-30 22:43:40.468  INFO 12864 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-11-30 22:43:40.469  INFO 12864 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2020-11-30 22:43:40.469  INFO 12864 --- [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3562e7c7
+2020-11-30 22:43:40.667  INFO 12864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/testdemo'
+2020-11-30 22:43:40.670  INFO 12864 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2020-11-30 22:43:40.676  INFO 12864 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-11-30 22:43:40.696  INFO 12864 --- [main] ingbootSampleBaselearnProjectApplication : Started SpringbootSampleBaselearnProjectApplication in 6.546 seconds (JVM running for 8.319)
+2020-11-30 22:45:49.862  INFO 4324 --- [main] ingbootSampleBaselearnProjectApplication : Starting SpringbootSampleBaselearnProjectApplication on PC-Wz with PID 4324 (E:\SoftDevWorkspace\JavaEE\learn-springboot-sample-space\springboot-sample-baselearn-project\target\classes started by admin in E:\SoftDevWorkspace\JavaEE\learn-springboot-sample-space\springboot-sample-baselearn-project)
+2020-11-30 22:45:49.872  INFO 4324 --- [main] ingbootSampleBaselearnProjectApplication : No active profile set, falling back to default profiles: default
+2020-11-30 22:45:50.948  INFO 4324 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-30 22:45:50.951  INFO 4324 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-30 22:45:50.972  INFO 4324 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2020-11-30 22:45:51.425  INFO 4324 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-30 22:45:51.433  INFO 4324 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-30 22:45:51.433  INFO 4324 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-11-30 22:45:51.563  INFO 4324 --- [main] o.a.c.c.C.[.[localhost].[/testdemo]      : Initializing Spring embedded WebApplicationContext
+2020-11-30 22:45:51.563  INFO 4324 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1603 ms
+2020-11-30 22:45:51.761  INFO 4324 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-30 22:45:51.853  WARN 4324 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-11-30 22:45:52.658  INFO 4324 --- [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2020-11-30 22:45:52.666  INFO 4324 --- [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-11-30 22:45:52.666  INFO 4324 --- [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2020-11-30 22:45:52.667  INFO 4324 --- [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2020-11-30 22:45:52.668  INFO 4324 --- [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-***************************
-APPLICATION FAILED TO START
-***************************
+2020-11-30 22:45:52.668  INFO 4324 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-11-30 22:45:52.668  INFO 4324 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2020-11-30 22:45:52.668  INFO 4324 --- [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@35e07e19
+2020-11-30 22:45:52.751  INFO 4324 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/testdemo'
+2020-11-30 22:45:52.752  INFO 4324 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2020-11-30 22:45:52.752  INFO 4324 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-11-30 22:45:52.762  INFO 4324 --- [main] ingbootSampleBaselearnProjectApplication : Started SpringbootSampleBaselearnProjectApplication in 3.849 seconds (JVM running for 5.21)
+2020-11-30 22:50:22.462  INFO 8464 --- [main] ingbootSampleBaselearnProjectApplication : Starting SpringbootSampleBaselearnProjectApplication on PC-Wz with PID 8464 (E:\SoftDevWorkspace\JavaEE\learn-springboot-sample-space\springboot-sample-baselearn-project\target\classes started by admin in E:\SoftDevWorkspace\JavaEE\learn-springboot-sample-space\springboot-sample-baselearn-project)
+2020-11-30 22:50:22.476  INFO 8464 --- [main] ingbootSampleBaselearnProjectApplication : No active profile set, falling back to default profiles: default
+2020-11-30 22:50:23.664  INFO 8464 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-30 22:50:23.666  INFO 8464 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-30 22:50:23.688  INFO 8464 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2020-11-30 22:50:24.089  INFO 8464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-30 22:50:24.099  INFO 8464 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-30 22:50:24.099  INFO 8464 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-11-30 22:50:24.227  INFO 8464 --- [main] o.a.c.c.C.[.[localhost].[/testdemo]      : Initializing Spring embedded WebApplicationContext
+2020-11-30 22:50:24.227  INFO 8464 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1608 ms
+2020-11-30 22:50:24.448  INFO 8464 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-30 22:50:24.549  WARN 8464 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-11-30 22:50:25.231  INFO 8464 --- [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2020-11-30 22:50:25.239  INFO 8464 --- [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-11-30 22:50:25.239  INFO 8464 --- [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2020-11-30 22:50:25.240  INFO 8464 --- [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2020-11-30 22:50:25.241  INFO 8464 --- [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-Description:
-
-Web server failed to start. Port 8081 was already in use.
-
-Action:
-
-Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
-
-2020-11-14 16:00:54.355  INFO 17968 --- [main] ingbootSampleBaselearnProjectApplication : Starting SpringbootSampleBaselearnProjectApplication on PC-Wz with PID 17968 (E:\SoftDevWorkspace\JavaEE\learn-springboot-sample-space\springboot-sample-baselearn-project\target\classes started by admin in E:\SoftDevWorkspace\JavaEE\learn-springboot-sample-space\springboot-sample-baselearn-project)
-2020-11-14 16:00:54.358  INFO 17968 --- [main] ingbootSampleBaselearnProjectApplication : No active profile set, falling back to default profiles: default
-2020-11-14 16:00:55.652  INFO 17968 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2020-11-14 16:00:55.655  INFO 17968 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2020-11-14 16:00:55.681  INFO 17968 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11ms. Found 0 Redis repository interfaces.
-2020-11-14 16:00:56.109  INFO 17968 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2020-11-14 16:00:56.118  INFO 17968 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-11-14 16:00:56.119  INFO 17968 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
-2020-11-14 16:00:56.239  INFO 17968 --- [main] o.a.c.c.C.[.[localhost].[/testdemo]      : Initializing Spring embedded WebApplicationContext
-2020-11-14 16:00:56.239  INFO 17968 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1701 ms
-2020-11-14 16:00:56.468  INFO 17968 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-11-14 16:00:57.290  INFO 17968 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/testdemo'
-2020-11-14 16:00:57.301  INFO 17968 --- [main] ingbootSampleBaselearnProjectApplication : Started SpringbootSampleBaselearnProjectApplication in 3.507 seconds (JVM running for 4.894)
-2020-11-14 16:01:18.899  INFO 17968 --- [http-nio-8081-exec-1] o.a.c.c.C.[.[localhost].[/testdemo]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-11-14 16:01:18.900  INFO 17968 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-11-14 16:01:18.907  INFO 17968 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
-2020-11-14 16:01:32.320  INFO 17968 --- [http-nio-8081-exec-2] i.o.s.controller.HelloController         : 【info级别日志】
-2020-11-14 16:01:32.320  WARN 17968 --- [http-nio-8081-exec-2] i.o.s.controller.HelloController         : 【warn级别日志】
-2020-11-14 16:01:32.320 ERROR 17968 --- [http-nio-8081-exec-2] i.o.s.controller.HelloController         : 【error级别日志】
+2020-11-30 22:50:25.241  INFO 8464 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-11-30 22:50:25.241  INFO 8464 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2020-11-30 22:50:25.241  INFO 8464 --- [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@7f012923
+2020-11-30 22:50:25.322  INFO 8464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/testdemo'
+2020-11-30 22:50:25.323  INFO 8464 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2020-11-30 22:50:25.323  INFO 8464 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-11-30 22:50:25.333  INFO 8464 --- [main] ingbootSampleBaselearnProjectApplication : Started SpringbootSampleBaselearnProjectApplication in 3.596 seconds (JVM running for 4.96)
+2020-11-30 22:50:33.408  INFO 8464 --- [http-nio-8081-exec-1] o.a.c.c.C.[.[localhost].[/testdemo]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-30 22:50:33.409  INFO 8464 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-30 22:50:33.417  INFO 8464 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
