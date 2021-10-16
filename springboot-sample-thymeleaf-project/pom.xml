@@ -9,6 +9,7 @@
         <artifactId>learn-springboot-sample-space</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
+
     <artifactId>springboot-sample-thymeleaf-project</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>springboot-sample-thymeleaf-project</name>
@@ -26,6 +27,19 @@
     pulic
     tempaltes
     -->
+    <dependencies>
+        <!-- Thymeleaf依赖 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+
+        <!-- SpringBoot相关依赖start-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+    </dependencies>
     <build>
         <plugins>
             <plugin>

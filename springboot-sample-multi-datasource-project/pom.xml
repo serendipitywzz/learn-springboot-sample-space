@@ -15,6 +15,14 @@
     <name>springboot-sample-multi-datasource-project</name>
     <description>SpringBoot多数据源的配置</description>
 
+    <dependencies>
+        <!-- Spring JPA依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>

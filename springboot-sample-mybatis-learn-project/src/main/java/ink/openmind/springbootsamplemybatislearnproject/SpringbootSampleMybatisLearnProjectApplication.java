@@ -13,7 +13,6 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 * */
 @MapperScan("ink.openmind.springbootsamplemybatislearnproject.dao")
 public class SpringbootSampleMybatisLearnProjectApplication {
-
     public static void main(String[] args) {
         System.out.println("启动SpringBoot...");
         SpringApplication.run(SpringbootSampleMybatisLearnProjectApplication.class, args);

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文件上传</title>
+</head>
+<body>
+<!--
+★ 一定要保持MultipartFile的参数对象名称和前端的input表单中的name保持一致
+如果不一致一定要加上@RequestParam("")将表单中的input的name填入注解中
+
+未加注解，Spring默认将u第项名称当作请求参数的名称，两者不一致会导致controller接收不到上传的我呢见，
+进一步导致MultipartFile对象为null
+
+-->
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="uploadFile" value="请选择文件">
+        <input type="submit" value="上传"/>
+    </form>
+</body>
+</html>
